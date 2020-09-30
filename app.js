@@ -4,9 +4,6 @@ const Joi = require('joi');
 const db = require('./util/database');
 
 app.use(express.json());
-//const bodyParser = require('body-parser')
-//app.use(bodyParser.json());
-
 
 // Default response
 app.get('/', (req, res)=> {
